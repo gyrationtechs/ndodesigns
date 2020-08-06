@@ -153,7 +153,7 @@ nav {
 }
 
 .main-message p {
-	text-transform: lowercase;
+	text-transform: initial;
 }
 
 .btn {
@@ -256,6 +256,7 @@ nav {
 
 .services-grid-item p {
 	text-align: left; 
+	text-transform: initial;
 }
 
 /*testimonial section*/
@@ -435,6 +436,15 @@ footer p {
 
 footer p a {
 	color: #eb648c;
+}
+
+/* .projects li {
+	margin: 10px 0;
+} */
+
+.footer-grid-item li a {
+	font-size: 1.5rem;
+	color: #fafafa;
 }
 
 /*Media queries*/
